@@ -10,10 +10,7 @@ This code is not complete either but it implements an automatization basen on an
 
 All steps from TUTORIAL are detailed below: ( https://www.youtube.com/watch?v=YsCMZK6bUDI ) 
 
-$\textcolor{purple}{\text{this color text represents terminal \textbf{commands}}}$
-
-$\textcolor{orange}{\text{this color text represents terminal \textbf{directory}}}$
-
+(color code below)
 
   - Acess http://www.srim.org
   
@@ -23,22 +20,29 @@ $\textcolor{orange}{\text{this color text represents terminal \textbf{directory}
   
   - Rename extension : SRIM-2013-Pro **.e** =>   SRIM-2013-Pro **.exe**
 
-  - Open terminal: > sudo apt install wine 
+  - Open terminal: > $\textcolor{teal}{\text{sudo apt install wine }}$ 
 
-  - Open SRIM folder in terminal: > *SRIM/* wineconsole SRIM-2013-Pro.exe
+  - Open SRIM folder in terminal: >  $\textcolor{purple}{\text{SRIM/}}$ : $\textcolor{teal}{\text{wineconsole SRIM-2013-Pro.exe}}$ 
 
   - A pop-up window should open. Select " Extract " button. 
 
   - Once it is complete: press "ok" and "done"
 
-  - Acess " SRIM-Setup " folder (SRIM/SRIM_Setup/): > wineconsole '_SRIM.Setup (Right-Click).bat'
+  - Acess " SRIM-Setup " folder > $\textcolor{purple}{\text{SRIM/SRIM\_Setup/}}$ : $\textcolor{teal}{\text{wineconsole '\_SRIM.Setup (Right-Click).bat'}}$ 
 
   - Press any key. (Repeat this step if necessary, following terminal instructions)
 
   - Open "Linedraw.ttf" and select "install"
 
-  - Go back to "SRIM" folder : *SRIM/* wineconsole SRIM.exe
+  - Go back to "SRIM" folder : $\textcolor{purple}{\text{SRIM/}}$ : $\textcolor{teal}{\text{wineconsole SRIM.exe}}$  
 
 A pop-up window should open with SRIM Main Menu !
   
   **DONE**
+
+
+Color code: 
+
+$\textcolor{teal}{\text{this color text represents terminal commands}}$ $\textcolor{teal}{\text{commands}}$ 
+
+$\textcolor{purple}{\text{this color text represents terminal directory}}$ $\textcolor{purple}{\text{directory}}$
