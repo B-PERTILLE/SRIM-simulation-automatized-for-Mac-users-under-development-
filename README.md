@@ -6,7 +6,7 @@ This work is under development and it is based on pysrim library.
 It was necessary to do some changes in the original codes. 
 This code is not complete either but it implements an automatization basen on an input file (.txt) provided by user. 
 
-## Table of Contents
+#### Table of Contents
 1. [Introduction](#introduction)
 2. [Installing SRIM in MacOS (or linux)](#installing-srim-in-macos-or-linux)
 3. [Usage](#usage)
