@@ -28,7 +28,7 @@ All steps from TUTORIAL are detailed below: ( https://www.youtube.com/watch?v=Ys
 
   - Once it is complete: press "ok" and "done"
 
-  - Acess " SRIM-Setup " folder > $\textcolor{purple}{\text{SRIM/SRIM\_Setup/}}$ : $\textcolor{teal}{\text{wineconsole '\_SRIM.Setup (Right-Click).bat'}}$ 
+  - Acess " SRIM-Setup " folder > $\textcolor{purple}{\text{SRIM/SRIM}}$ _ $\textcolor{purple}{\text{Setup/}}$ : $\textcolor{teal}{\text{wineconsole\ " }}$ _ $\textcolor{teal}{\text{SRIM.Setup (Right-Click).bat\ "}}$ 
 
   - Press any key. (Repeat this step if necessary, following terminal instructions)
 
@@ -43,6 +43,6 @@ A pop-up window should open with SRIM Main Menu !
 
 Color code: 
 
-$\textcolor{teal}{\text{this color text represents terminal commands}}$ $\textcolor{teal}{\text{commands}}$ 
+ [ $\textcolor{teal}{\text{this color text represents terminal commands}}$ $\textcolor{teal}{\text{commands}}$ ]
 
-$\textcolor{purple}{\text{this color text represents terminal directory}}$ $\textcolor{purple}{\text{directory}}$
+ [ $\textcolor{purple}{\text{this color text represents terminal directory}}$ $\textcolor{purple}{\text{directory}}$ ]
