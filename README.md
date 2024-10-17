@@ -12,6 +12,6 @@ You can follow this turorial https://www.youtube.com/watch?v=YsCMZK6bUDI.
 The necessaty steps are detailed below:
 
 Acess http://www.srim.org
->> Download SRIM-2013 <<
-Select >> SRIM-2013 (Professional) <<
+> Download SRIM-2013
+Select > SRIM-2013 (Professional)
 Rename extension   SRIM-2013-Pro.e   =>   SRIM-2013-Pro.exe
