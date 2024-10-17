@@ -10,6 +10,11 @@ This code is not complete either but it implements an automatization basen on an
 
 All steps from TUTORIAL are detailed below: ( https://www.youtube.com/watch?v=YsCMZK6bUDI ) 
 
+$\textcolor{purple}{\text{this color text represents terminal \textbf{commands}}}$
+
+$\textcolor{orange}{\text{this color text represents terminal \textbf{directory}}}$
+
+
   - Acess http://www.srim.org
   
   - Select > Download SRIM-2013 <
