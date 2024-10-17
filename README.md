@@ -1,6 +1,6 @@
-# SRIM-simulation-automatized-for-Mac-users-under-development-
+# SRIM simulation automatized for Mac users (under development)
 
-# ATTENTION:
+## ATTENTION:
 
 This work is under development and it is based on pysrim library. 
 It was necessary to do some changes in the original codes. 
