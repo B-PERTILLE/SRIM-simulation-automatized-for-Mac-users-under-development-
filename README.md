@@ -2,7 +2,8 @@
 
 ## ATTENTION:
 
-This work is under development and it is based on pysrim library. 
+This work is under development and it is based on pysrim library: (https://github.com/costrouc/pysrim/tree/master)
+
 It was necessary to do some changes in the original codes. 
 This code is not complete either but it implements an automatization basen on an input file (.txt) provided by user. 
 
