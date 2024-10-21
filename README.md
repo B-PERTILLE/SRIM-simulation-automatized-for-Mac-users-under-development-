@@ -67,6 +67,7 @@ Color code:
     self._trim.ion.energy
     
 @ _write_bragg_correction()
+
     return (
         'Target Compound Corrections (Bragg)'
             ) + self.newline + 
