@@ -71,10 +71,16 @@ Color code:
     return (
         'Target Compound Corrections (Bragg)'
             ) + self.newline + 
-            ' 1' * len(self._trim.target.layers) 
+            ' 1' * len(self._trim.target.layers)   #before
             + self.newline
 
-    >> ' 1' * len(self._trim.target.layers) << became >> str(self._trim.settings.bragg_correction) <<
+   became:
+   
+   return (
+        'Target Compound Corrections (Bragg)'
+            ) + self.newline + 
+            str(self._trim.settings.bragg_correction)    #after
+            + self.newline
 
 ### @ output.py
 
