@@ -53,3 +53,49 @@ Color code:
  [ $\textcolor{teal}{\text{this color text represents terminal commands}}$ $\textcolor{teal}{\text{commands}}$ ]
 
  [ $\textcolor{purple}{\text{this color text represents terminal directory}}$ $\textcolor{purple}{\text{directory}}$ ]
+
+
+## Edits in original pysrim: 
+
+### @ input.py:
+
+@ _write_ion()
+
+    self._trim.ion.energy / 1000.0, # eV
+
+    became:
+    self._trim.ion.energy
+    
+@ _write_bragg_correction()
+    return (
+        'Target Compound Corrections (Bragg)'
+            ) + self.newline + 
+            ' 1' * len(self._trim.target.layers) 
+            + self.newline
+
+    >> ' 1' * len(self._trim.target.layers) << became >> str(self._trim.settings.bragg_correction) <<
+
+### @ output.py
+
+@ _read_num_ions()
+
+    return int(float(match.group(1)))
+
+    became:
+    return int(float(match.group(1).replace(b',', b'.')))
+
+@ \__init__()
+
+    # add:
+    self._data = data
+
+### @ elementdb.py
+
+@ create_elementdb()
+
+    return yaml.load(open(dbpath, "r"))
+
+    became:
+    return yaml.load(open(dbpath, "r"), Loader=yaml.FullLoader)
+
+
