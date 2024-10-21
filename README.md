@@ -63,7 +63,7 @@ Color code:
 
     self._trim.ion.energy / 1000.0, # eV
 
-    became:
+    #became:
     self._trim.ion.energy
     
 @ _write_bragg_correction()
@@ -74,7 +74,7 @@ Color code:
             ' 1' * len(self._trim.target.layers)   #before
             + self.newline
 
-   became:
+   #became:
    
    return (
         'Target Compound Corrections (Bragg)'
@@ -88,7 +88,7 @@ Color code:
 
     return int(float(match.group(1)))
 
-    became:
+    #became:
     return int(float(match.group(1).replace(b',', b'.')))
 
 @ \__init__()
@@ -102,7 +102,7 @@ Color code:
 
     return yaml.load(open(dbpath, "r"))
 
-    became:
+    #became:
     return yaml.load(open(dbpath, "r"), Loader=yaml.FullLoader)
 
 
