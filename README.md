@@ -55,7 +55,7 @@ Color code:
  [ $\textcolor{purple}{\text{this color text represents terminal directory}}$ $\textcolor{purple}{\text{directory}}$ ]
 
 
-## Edits in original pysrim: 
+## Edits in original pysrim (edited files found inside "srim" folder): 
 
 ### @ input.py:
 
