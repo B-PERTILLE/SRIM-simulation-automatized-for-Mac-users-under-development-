@@ -154,7 +154,7 @@ Create your _input_list.txt_ based on the example or edit the code accordingly t
 To execute the code: 
 Run all cells ("__Run all__" button or __shift + enter__ to run individual cells)
 
-__ATTENTION:__ if you need to edit anything in the auxilary functions files ( _aux_functions.py , simulation_lib.py_ ), you should save the edits and reload the libraries by running a cell with the following script on top: 
+__ATTENTION:__ if you need to edit anything in the functions files ( _aux_functions.py , simulation_lib.py_ ), you should save the edits and reload the libraries by running a cell with the following script on top: 
 
       reload(simulation_lib); from simulation_lib import *  
       reload(aux_functions); from aux_functions import *
