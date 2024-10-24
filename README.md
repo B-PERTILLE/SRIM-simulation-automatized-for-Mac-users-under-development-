@@ -159,5 +159,6 @@ __ATTENTION:__ if you need to edit anything in the auxilary functions files ( _a
       reload(simulation_lib); from simulation_lib import *  
       reload(aux_functions); from aux_functions import *
 
+(behaves similarly to "make clean && make" command)
 
 
