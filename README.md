@@ -28,7 +28,14 @@ All steps from TUTORIAL are detailed below: ( https://www.youtube.com/watch?v=Ys
   
   - Rename extension : SRIM-2013-Pro **.e** =>   SRIM-2013-Pro **.exe**
 
-  - Open terminal: > $\textcolor{teal}{\text{sudo apt install wine }}$ 
+__
+
+Install wine on mac: 
+https://github.com/Gcenx/wine-on-mac
+  - Open terminal: > $\textcolor{teal}{\text{brew tap gcenx/wine
+brew install --cask --no-quarantine wine-crossover}}$
+
+__
 
   - Open SRIM folder in terminal: >  $\textcolor{purple}{\text{SRIM/}}$ : $\textcolor{teal}{\text{wineconsole SRIM-2013-Pro.exe}}$ 
 
