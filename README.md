@@ -113,3 +113,39 @@ Color code:
     return yaml.load(open(dbpath, "r"), Loader=yaml.FullLoader)
 
 
+# How to use:
+
+You can use the srim folder to replace the srim (pysrim) folder you have installed in your computer 
+
+or 
+
+you can locate that folder and replace the few changes listed above @ " Edits in original pysrim "
+
+__________________________________
+
+To run the automatized python code: 
+
+You can clone the repository in vscode with the GitHub link (for example)
+
+or
+
+you can download the files (SRIM_simulation.ipynb , aux_functions.py , simulation_lib.py , ...) in your SRIM directory where you find SRIM.exe / TRIM.exe .
+If you decide to create a new folder, remember to edit the directory paths in your SRIM_simulation.ipynb notebook.
+
+
+Open the Jupyter notebook script (SRIM_simulation.ipynb) using vscode with Jupyter extension or with anaconda navigator.
+
+Get familiarized with the code structure.
+
+Create your input_list.txt based on the example or edit the code accordingly to accept your customized input format. 
+
+To execute the code: 
+Run all cells ("__Run all__" button or __shift + enter__ to run individual cells)
+
+__ATTENTION:__ if you need to edit anything in the auxilary functions files ( aux_functions.py , simulation_lib.py ), you should save the edits and reload the libraries by running a cell with the following script on top: 
+
+      reload(simulation_lib); from simulation_lib import *  
+      reload(aux_functions); from aux_functions import *
+
+
+
