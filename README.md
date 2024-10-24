@@ -109,8 +109,10 @@ or
 
     #became:
     return int(float(match.group(1).replace(b',', b'.')))
+    
+@ class Range(SRIM_Output):
 
-@ \__init__()
+    \__init__()
 
     # add:
     self._data = data
