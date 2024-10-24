@@ -154,7 +154,7 @@ Create your _input_list.txt_ based on the example or edit the code accordingly t
 To execute the code: 
 Run all cells ("__Run all__" button or __shift + enter__ to run individual cells)
 
-__ATTENTION__ uncomment call for _start_simulation( )_ function 
+__ATTENTION:__ uncomment call for _start_simulation( )_ function 
 
 A pop-up window should appear with SRIM interface. Now just wait for the simulation to be complete :)
 
