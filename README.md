@@ -10,8 +10,8 @@ This code is not complete either but it implements an automatization basen on an
 #### Table of Contents
 1. [Introduction](#ATTENTION)
 2. [Installing SRIM in MacOS (or linux)](#installing-srim-in-macos-or-linux)
-3. [Edits in original pysrim (edited files found inside "srim" folder)](#Edits-in-original-pysrim)
-4. [How to use](#How-to-use:)
+3. [Edits in original pysrim](#edits-in-original-pysrim-edited-files-found-inside-srim-folder)
+4. [How to use](#how-to-use)
 
    
 ## Installing SRIM in MacOS (or linux)
