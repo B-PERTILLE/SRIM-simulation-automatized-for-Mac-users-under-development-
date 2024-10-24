@@ -71,6 +71,10 @@ Color code:
 to locate it, you can type in you terminal:
 
       mdfind srim
+      
+or
+
+      mdfind srim.py
 
 ### @ input.py:
 
@@ -137,20 +141,20 @@ You can clone the repository in vscode with the GitHub link (for example)
 
 or
 
-you can download the files (SRIM_simulation.ipynb , aux_functions.py , simulation_lib.py , ...) in your SRIM directory where you find SRIM.exe / TRIM.exe .
-If you decide to create a new folder, remember to edit the directory paths in your SRIM_simulation.ipynb notebook.
+you can download the files (_SRIM_simulation.ipynb , aux_functions.py , simulation_lib.py , ..._) in your SRIM directory where you find _SRIM.exe / TRIM.exe_ .
+If you decide to create a new folder, remember to edit the directory paths in your _SRIM_simulation.ipynb_ notebook.
 
 
-Open the Jupyter notebook script (SRIM_simulation.ipynb) using vscode with Jupyter extension or with anaconda navigator.
+Open the Jupyter notebook script (_SRIM_simulation.ipynb_) using vscode with Jupyter extension or with anaconda navigator.
 
 Get familiarized with the code structure.
 
-Create your input_list.txt based on the example or edit the code accordingly to accept your customized input format. 
+Create your _input_list.txt_ based on the example or edit the code accordingly to accept your customized input format. 
 
 To execute the code: 
 Run all cells ("__Run all__" button or __shift + enter__ to run individual cells)
 
-__ATTENTION:__ if you need to edit anything in the auxilary functions files ( aux_functions.py , simulation_lib.py ), you should save the edits and reload the libraries by running a cell with the following script on top: 
+__ATTENTION:__ if you need to edit anything in the auxilary functions files ( _aux_functions.py , simulation_lib.py_ ), you should save the edits and reload the libraries by running a cell with the following script on top: 
 
       reload(simulation_lib); from simulation_lib import *  
       reload(aux_functions); from aux_functions import *
