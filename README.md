@@ -154,6 +154,12 @@ Create your _input_list.txt_ based on the example or edit the code accordingly t
 To execute the code: 
 Run all cells ("__Run all__" button or __shift + enter__ to run individual cells)
 
+__ATTENTION__ uncomment call for _start_simulation( )_ function 
+
+A pop-up window should appear with SRIM interface. Now just wait for the simulation to be complete :)
+
+The output .text and .IN files are stored in OUTPUTS/##Xy folders 
+
 __ATTENTION:__ if you need to edit anything in the functions files ( _aux_functions.py , simulation_lib.py_ ), you should save the edits and reload the libraries by running a cell with the following script on top: 
 
       reload(simulation_lib); from simulation_lib import *  
