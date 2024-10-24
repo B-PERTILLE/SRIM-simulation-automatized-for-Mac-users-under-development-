@@ -64,6 +64,14 @@ Color code:
 
 ## Edits in original pysrim (edited files found inside "srim" folder): 
 
+"srim" pysrim folder should be found in a path similar to this one if you use anaconda:
+
+      ~/anaconda3/lib/python3.11/site-packages
+
+to locate it, you can type in you terminal:
+
+      mdfind srim
+
 ### @ input.py:
 
 @ _write_ion()
@@ -115,11 +123,11 @@ Color code:
 
 # How to use:
 
-You can use the srim folder to replace the srim (pysrim) folder you have installed in your computer 
+You can use the srim folder to replace the srim (pysrim) folder you have installed in your computer (not recommended)
 
 or 
 
-you can locate that folder and replace the few changes listed above @ " Edits in original pysrim "
+you can locate that folder and replace the few changes listed above @ " Edits in original pysrim " (#edits-in-original-pysrim-edited-files-found-inside-srim-folder)
 
 __________________________________
 
